@@ -13,7 +13,6 @@ class binaryTreeNode:
     def traverse(head: binaryTreeNode) -> None:
         if head.left:
             binaryTreeNode.traverse(head.left)
-        print(f"{head.data}")
         if head.right:
             binaryTreeNode.traverse(head.right)
 
